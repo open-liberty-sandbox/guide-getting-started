@@ -6,6 +6,11 @@
         <feature>jsonp</feature>
         <feature>jsonb</feature>
         <feature>cdi</feature>
+        <!--
+            the Microprofile `mpHealth` automatically adds
+            the `/health` endpoint
+         -->
+        <feature>mpHealth</feature>
         <feature>mpConfig</feature>
         <feature>mpMetrics</feature>
     </featureManager>
